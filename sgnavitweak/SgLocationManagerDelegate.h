@@ -1,6 +1,6 @@
 //
-//  MyLocationManagerDelegate.h
-//  UberHackTweak
+//  SgLocationManagerDelegate.h
+//  SGNaviTweak
 //
 //  Created by Rand01ph on 15-11-4.
 //
