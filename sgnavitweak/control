@@ -1,0 +1,9 @@
+Package: com.sginc.sgnavitweak
+Name: SGNaviTweak
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Rand01ph
+Author: Rand01ph
+Section: Tweaks
