@@ -1,12 +1,13 @@
-THEOS_DEVICE_IP = 192.168.1.156
+THEOS_DEVICE_IP = 192.168.1.141
 ARCHS = armv7 arm64
-TARGET = iphone:8.1
+TARGET = iphone:latest
 
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = UberHack
-UberHack_FILES = Tweak.xm SgLocationManagerDelegate.m
-UberHack_FRAMEWORKS = CoreLocation
+TWEAK_NAME = SGNavi
+UberHack_FILES = Tweak.xm SgLocationManagerDelegate.m FixedLocationData.m SgLocationCacheManager.m
+UberHack_FRAMEWORKS = CoreLocation UIKit Foundation
+UberHack_PRIVATE_FRAMEWORKS = AppSupport
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 

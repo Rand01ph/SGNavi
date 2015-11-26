@@ -1,9 +1,9 @@
-Package: com.sginc.sgnavitweak
-Name: SGNaviTweak
-Depends: mobilesubstrate
-Version: 0.0.1
+Package: com.sg.sgnavi
+Name: SGNavi 虚拟定位-营销利器
+Depends: firmware (>=8.0)
+Version: 1.0
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
-Maintainer: Rand01ph
+Description: 模拟导航利器，营销神器。
+Maintainer: SG.inc
 Author: Rand01ph
-Section: Tweaks
+Section: System

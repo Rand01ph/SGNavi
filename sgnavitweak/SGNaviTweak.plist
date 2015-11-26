@@ -3,8 +3,7 @@
         Bundles = (
                 "com.apple.springboard",
                 "com.apple.corelocation",
-                "com.ubercab.UberClient",
-                "com.apple.Security",
+                "sg.inc.SGNavi",
                 );
     };
 }
